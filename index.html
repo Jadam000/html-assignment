@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
 </head>
 <body>
     <header>
@@ -13,7 +14,7 @@
             <ul>
                 <li><a href="index.html">Home Page</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li><a href="registration.html">Regestration</a></li>
+                <li><a href="registration.html">Registration</a></li>
                 <li><a href="postvideo.html">Post video</a></li>
                 <li><a href="viewpost.html">View Post</a></li>
             </ul>
@@ -22,7 +23,9 @@
     <main>
          <section>
             <h3>Main Page Content</h3>
-            <!--main page content-->
+            <button id="fetchPhotos">Fetch Photos</button>
+            <div id="photoContainer"></div>
+            <div id="photoCount"></div>
         </section>
     </main>
 <footer>
