@@ -69,4 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault();
         return false;
     }
+
+    const form = document.getElementById('registrationForm');
+    form.addEventListener('submit', validateForm);
 });
+
